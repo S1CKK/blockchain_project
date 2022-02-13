@@ -1,0 +1,9 @@
+{
+    "borrower": "Art",
+    "lender": "Chin",
+    "amount": "100",
+    "prev_block": {
+        "hash": "7f4e1645200a7acd79c12a6fb73ebe0002e84f45be7995e674bc4eef88846d4c",
+        "filename": "2"
+    }
+}
