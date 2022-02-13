@@ -1,0 +1,21 @@
+{
+    "index": 8,
+    "timestamp": "2022-02-12 18:25:53.485941",
+    "data": {
+        "day": "7",
+        "date": "02/07/2022",
+        "rank1": "Earena",
+        "rank2": "PSG Esports",
+        "rank3": "King Of Gamers Club",
+        "rank4": "Bacon Time",
+        "rank5": "Buriram United Esports",
+        "rank6": "KFC X Talon",
+        "rank7": "Goldcity Esports",
+        "rank8": "Evos Esports",
+        "rank9": "Valencia CF Esports"
+    },
+    "prev_block": {
+        "prev_hash": "ff05d1ed5790d2a1e2d96162d89500e0d5f38737eb7d283e118e51e6d267e75f",
+        "prev_filename": "7"
+    }
+}
