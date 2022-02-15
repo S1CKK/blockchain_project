@@ -15,16 +15,6 @@ def get_hash(prev_block):
         content = f.read()                         # อ่านไฟล์แล้วเก็บเป็นชื่อว่า content
     return hashlib.sha256(content).hexdigest()     # ทำการ hash content นั้น
 
-def check_update():
-    blocks_count = len(os.listdir(blockchain_dir))
-    with open(blockchain_dir + "11") as f:
-            block = json.load(f) 
-
-    prev_filename =  block.get("prev_block").get("prev_filename")
-    if (prev_filename == "11"):
-        return 0
-    else:
-        return 1
 # function เพื่อตรวจสอบความถูกต้องของ block
 def check_integrity():
     files = sorted(os.listdir(blockchain_dir),key=lambda x: int(x)) # file ทั้งหมด
