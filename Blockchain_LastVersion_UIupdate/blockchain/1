@@ -1,0 +1,21 @@
+{
+    "index":"1",
+    "timestamp":"0/0/0000",
+    "data" :{
+        "day": "0",
+        "date":"00/00/0000", 
+      "rank1": "0",
+      "rank2": "0",
+      "rank3": "0",
+      "rank4": "0",
+      "rank5": "0",
+      "rank6": "0",
+      "rank7": "0",
+      "rank8": "0",
+      "rank9": "0"
+      }, 
+    "prev_block":{
+        "prev_hash":"",
+        "prev_filename":""
+    }
+}
