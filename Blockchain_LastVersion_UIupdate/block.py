@@ -35,7 +35,7 @@ def check_integrity():
         else:
             res = "was Changed"
         
-        print(f"Block {prev_filename}:{res}")
+        #print(f"Block {prev_filename}:{res}")
         results.append({'block':prev_filename,'result':res})
     return results
 
@@ -300,15 +300,15 @@ def main_screen():
         
         def check():
             res = check_integrity()
-
+ blocks_count = len(os.listdir(blockchain_dir))
             temp = str(res)
             data_res = temp.split(", {")
             data = ""
-            for i in range(0,9):
+            for i in range(0,blocks_count-1):
                 if (i==0):
                     data = data+data_res[i].lstrip().replace("\'","").replace(",","").replace("{","").replace("}","").replace("[","")
                 else :
-                    data = data+"\n"+data_res[i].lstrip().replace("\'","").replace(",","").replace("{","").replace("}","")
+                    data = data+"\n"+data_res[i].lstrip().replace("\'","").replace(",","").replace("{","").replace("}","").replace("]","")
             text_box.insert(1.0,data)
 
         def clear():
